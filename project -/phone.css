@@ -1,0 +1,100 @@
+/* Home*/
+#home{
+    height: 829px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+/* About*/
+#pic img{
+    width: 300px;
+    height: 175px;
+}
+.intro{
+    font-size: 1.5rem; 
+}
+/* Project */
+.gallery img{
+    width:250px;
+    height:240px;
+    margin:10px ;
+}
+/*Contact */
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
+.social-icons{
+    display: flex;
+    font-size: 1.7rem;
+    /* flex-direction: row;
+    padding-right: 30px;
+    color: white; */
+
+}
+
+.min{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white ; */
+    align-items: center;
+    position: absolute;
+    top:30%;
+    right: auto;
+}
+
+.footer ul li{
+    font-family:century;
+    font-size: 17px;
+    font-weight: bold;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+    transition: all .5s ease;
+}
+
+.navbar ul li{
+    font-family:century;
+    font-size: 10px;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 9px;
+    transition: all .5s ease;
+}
+/* .main-sec */
+@media screen and (max-width:530px){
+#contact{
+display: flex;
+flex-direction: column;
+justify-items: center;
+width: 100%;
+}
+.main-sec{
+    margin: auto;
+    width: 50%;
+    align-items: flex-start;
+    display:inline-grid ;
+}
+.form{
+    margin: auto;
+   align-items: flex-end;
+   display:inline-grid ;
+   width: 50%;
+}
+.main-sec img{
+    width: 80%;
+}
+#send{
+    width: 40%;
+}
+}
